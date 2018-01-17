@@ -1,2 +1,16 @@
 *.class
 *.log
+
+.cache
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/target/
+project/plugins/project/
+# IDE specific
+.idea
+.DS_Store
+simulationlog.*
