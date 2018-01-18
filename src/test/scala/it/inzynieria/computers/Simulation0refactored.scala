@@ -25,6 +25,6 @@ object Computers {
   }
 
   trait Scenarios extends Simulation with Actions {
-    val simpleClientScenario =  scenario("client path").exec(homepage).repeat(5) { exec(computerView) }
+    val simpleClientScenario = scenario("client path").exec(homepage).repeat(5) { exec(computerView) }
   }
 }

@@ -18,7 +18,6 @@ class Simulation0 extends Simulation {
     .check(status.is(200))
     .check(regex("Edit computer"))
 
-
   // SIMULATION configuration
   setUp(
     client.inject(atOnceUsers(50))
